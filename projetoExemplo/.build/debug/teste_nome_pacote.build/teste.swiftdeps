@@ -1,0 +1,28 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+depends-top-level:
+- "StringLiteralType"
+- "print"
+depends-member:
+depends-nominal:
+depends-dynamic-lookup:
+depends-external:
+- "/opt/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/opt/swift/usr/lib/swift/shims/Visibility.h"
+- "/opt/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/opt/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/opt/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/opt/swift/usr/lib/swift/shims/LibcShims.h"
+- "/opt/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/opt/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/opt/swift/usr/lib/swift/shims/RefCount.h"
+- "/opt/swift/usr/lib/swift/shims/HeapObject.h"
+- "/opt/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/opt/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/opt/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/opt/swift/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/opt/swift/usr/lib/swift/shims/module.map"
+- "/opt/swift/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "a70395d513c1dd8615476056e6f6a8a6"

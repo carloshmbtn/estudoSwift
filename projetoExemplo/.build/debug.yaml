@@ -1,0 +1,31 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<teste_nome_pacote.module>","<teste_nome_pacote.exe>"]
+  "main": ["<teste_nome_pacote.module>","<teste_nome_pacote.exe>"]
+default: "main"
+commands: 
+  "<teste_nome_pacote.module>":
+    tool: swift-compiler
+    executable: "/opt/swift/usr/bin/swiftc"
+    module-name: "teste_nome_pacote"
+    module-output-path: "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.swiftmodule"
+    inputs: []
+    outputs: ["<teste_nome_pacote.module>","/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.swift.o"]
+    import-paths: ["/home/carlos/Swift/teste/.build/debug"]
+    temps-path: "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build"
+    objects: ["/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/carlos/Swift/teste/.build/debug/ModuleCache"]
+    sources: ["/home/carlos/Swift/teste/sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<teste_nome_pacote.exe>":
+    tool: shell
+    description: "Linking .build/debug/teste_nome_pacote"
+    inputs: ["/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.swift.o"]
+    outputs: ["<teste_nome_pacote.exe>","/home/carlos/Swift/teste/.build/debug/teste_nome_pacote"]
+    args: ["/opt/swift/usr/bin/swiftc","-Xlinker","-rpath=$ORIGIN","-g","-L/home/carlos/Swift/teste/.build/debug","-o","/home/carlos/Swift/teste/.build/debug/teste_nome_pacote","-emit-executable","/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.swift.o"]
+

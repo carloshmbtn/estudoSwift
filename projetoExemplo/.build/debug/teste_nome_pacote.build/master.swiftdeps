@@ -1,0 +1,5 @@
+version: "Swift version 3.0-dev (LLVM c191431197, Clang c6195325c5, Swift add621a959)"
+options: "bafe1055447e30b82aa5e17d3ad4606f"
+build_time: [521593125, 497321000]
+inputs:
+  "/home/carlos/Swift/teste/sources/main.swift": [521593122, 0]

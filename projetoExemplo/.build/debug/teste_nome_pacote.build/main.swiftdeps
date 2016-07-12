@@ -1,0 +1,274 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ErroDivisao"
+- "Pessoa"
+- "Veiculo"
+- "divisao"
+- "teste"
+- "hexa"
+- "r"
+- "numero"
+- "string"
+- "r2"
+- "text"
+- "number"
+- "v"
+- "i"
+- "teste3"
+- "teste4"
+- "teste5"
+provides-nominal:
+- "O17teste_nome_pacote11ErroDivisao"
+- "C17teste_nome_pacote6Pessoa"
+- "C17teste_nome_pacote7Veiculo"
+provides-member:
+- ["O17teste_nome_pacote11ErroDivisao", ""]
+- ["C17teste_nome_pacote6Pessoa", ""]
+- ["C17teste_nome_pacote7Veiculo", ""]
+depends-top-level:
+- "=="
+- "IntegerLiteralType"
+- "Int"
+- "r"
+- "print"
+- "i"
+- "!="
+- "StringLiteralType"
+- "number"
+- "Pessoa"
+- "teste5"
+- "ErrorProtocol"
+- !private "/"
+- "hexa"
+- "teste4"
+- "divisao"
+- "teste3"
+- "r2"
+- "Veiculo"
+- "String"
+- "string"
+- "v"
+- "readLine"
+- "ErroDivisao"
+- "FloatLiteralType"
+- "teste"
+- "numero"
+- "text"
+- "<"
+depends-member:
+- ["Ps9AnyObject", "alert"]
+- !private ["Ps9AnyObject", "dono"]
+- ["Ps9AnyObject", "getDono"]
+- ["Ps9AnyObject", "getName"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "rodas"]
+- ["Ps9AnyObject", "setDono"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["Ps17BitwiseOperations", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7Boolean", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "DivisaoPorZero"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["O17teste_nome_pacote11ErroDivisao", "DivisaoPorZero"]
+- ["O17teste_nome_pacote11ErroDivisao", "_code"]
+- ["O17teste_nome_pacote11ErroDivisao", "_domain"]
+- ["O17teste_nome_pacote11ErroDivisao", "deinit"]
+- ["O17teste_nome_pacote11ErroDivisao", "hashValue"]
+- ["Ps13ErrorProtocol", "DivisaoPorZero"]
+- ["Ps13ErrorProtocol", "_code"]
+- ["Ps13ErrorProtocol", "_domain"]
+- ["Ps13ErrorProtocol", "hashValue"]
+- ["Ps13ErrorProtocol", ""]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Sf", "deinit"]
+- ["Vs7Float80", "deinit"]
+- ["Ps8Hashable", "DivisaoPorZero"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- ["Si", "init"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "hashValue"]
+- ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps21NilLiteralConvertible", "some"]
+- ["Vs16ObjectIdentifier", "deinit"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["Ps12OutputStream", "init"]
+- ["C17teste_nome_pacote6Pessoa", "String"]
+- ["C17teste_nome_pacote6Pessoa", "deinit"]
+- ["C17teste_nome_pacote6Pessoa", "getName"]
+- ["C17teste_nome_pacote6Pessoa", "init"]
+- ["C17teste_nome_pacote6Pessoa", "name"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["Ps10Strideable", "init"]
+- ["SS", "init"]
+- ["Ps30StringInterpolationConvertible", "init"]
+- ["Ps24StringLiteralConvertible", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["C17teste_nome_pacote7Veiculo", "Int"]
+- ["C17teste_nome_pacote7Veiculo", "Pessoa"]
+- ["C17teste_nome_pacote7Veiculo", "String"]
+- ["C17teste_nome_pacote7Veiculo", "alert"]
+- ["C17teste_nome_pacote7Veiculo", "deinit"]
+- ["C17teste_nome_pacote7Veiculo", "dono"]
+- ["C17teste_nome_pacote7Veiculo", "getDono"]
+- ["C17teste_nome_pacote7Veiculo", "init"]
+- ["C17teste_nome_pacote7Veiculo", "name"]
+- !private ["C17teste_nome_pacote7Veiculo", "print"]
+- ["C17teste_nome_pacote7Veiculo", "rodas"]
+- ["C17teste_nome_pacote7Veiculo", "setDono"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "hashValue"]
+- ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7Boolean"
+- "Ps25BooleanLiteralConvertible"
+- "Ps7CVarArg"
+- "Vs9Character"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "O17teste_nome_pacote11ErroDivisao"
+- "Ps13ErrorProtocol"
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Sf"
+- "Vs7Float80"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25IntegerLiteralConvertible"
+- "Ps10MirrorPath"
+- "Ps21NilLiteralConvertible"
+- "Vs16ObjectIdentifier"
+- "Sq"
+- "Ps12OutputStream"
+- "C17teste_nome_pacote6Pessoa"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Streamable"
+- "Ps10Strideable"
+- "SS"
+- "Ps30StringInterpolationConvertible"
+- "Ps24StringLiteralConvertible"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "Ps31UnicodeScalarLiteralConvertible"
+- "C17teste_nome_pacote7Veiculo"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps32_BuiltinStringLiteralConvertible"
+- "Ps37_BuiltinUTF16StringLiteralConvertible"
+- "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Vs26_OptionalNilComparisonType"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/opt/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/opt/swift/usr/lib/swift/shims/Visibility.h"
+- "/opt/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/opt/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/opt/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/opt/swift/usr/lib/swift/shims/LibcShims.h"
+- "/opt/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/opt/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/opt/swift/usr/lib/swift/shims/RefCount.h"
+- "/opt/swift/usr/lib/swift/shims/HeapObject.h"
+- "/opt/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/opt/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/opt/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/opt/swift/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/opt/swift/usr/lib/swift/shims/module.map"
+- "/opt/swift/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "11d0b712304ed1beceb74617b6e40378"

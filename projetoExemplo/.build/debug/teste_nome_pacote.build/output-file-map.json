@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/master.swiftdeps"
+  },
+  "/home/carlos/Swift/teste/sources/main.swift": {
+    "dependencies": "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.d",
+    "object": "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.swift.o",
+    "swiftmodule": "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/carlos/Swift/teste/.build/debug/teste_nome_pacote.build/main.swiftdeps"
+  }
+}
